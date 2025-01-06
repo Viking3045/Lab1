@@ -86,14 +86,17 @@ function allInformation() {
     const li = document.createElement("li");
     ul.append(li);
     const video = document.createElement("video");
-    video.src = "./Лабораторна 1.mp4";
-    video.autoplay = "autoplay";
+    // video.src = "./Лабораторна 1.mp4";
+    const source = document.createElement("source")
+    source.src = "./Лабораторна 1.mp4"
+    // video.autoplay = "autoplay";
     video.classList = "video"
     // video.width = "320";
     // video.height = "300";
-    video.muted = "muted";
-    video.controls = "controls";
-    video.textContent = " Ваш браузер не розпізнає video";
+    // video.muted = "muted";
+    // video.controls = "controls";
+    // video.textContent = " Ваш браузер не розпізнає video";
+    video.append(source);
     li.append(video);
     menu.append(section);
 
