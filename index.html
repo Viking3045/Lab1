@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <header></header>
+    <main  class="menu">
+        <section class="initialData">
+            <div class="container ">
+                
+ <form class="form">
+        <fieldset class="formAboutKursant">
+    
+                <input class=" name initialData__input" type="text" name="name"
+                    placeholder="Прізвище" title="Введіть своє прізвище" minlength="3" pattern="[A-Za-z]+" required>
+         
+        
+                <input class="middleName initialData__input" type="text" name="middleName"
+                    placeholder="Ім'я" title="Введіть своє ім'я" minlength="3" pattern="[A-Za-z]+" required>
+           
+          
+                <input class="lastName initialData__input" type="text" name="lastName"
+                    placeholder="По батькові" title="Введіть своє по батькові" minlength="3" pattern="[A-Za-z]+" required>
+         
+           
+                <select class="selectPlatoon">
+                    <option value disabled selected>оберіть навчальний взвод</option>
+                    <option value="21">21</option>
+                    <option value="22">22 </option> 
+                    <option value="23">23</option>
+                    <option value="24">24</option> 
+                    <option value="25">25</option>
+                    <option value="26">26</option> 
+                    <option value="студент">студент</option>
+                    <option value="викладач">викладач</option>
+              
+                  </select>
+          
+        
+                <select class="selectTree" >
+                    <option value disabled selected>оберіть тип деревини</option> 
+                    <option value="Дуб">Дуб</option>
+                    <option value="Ясень">Ясень </option> 
+                    <option value="Сосна">Сосна</option>
+                    <option value="Ялина">Ялина</option> 
+                    <option value="Бук">Бук</option>
+                    <option value="Клен">Клен</option> 
+                    <option value="Граб">Граб</option>
+                    <option value="Тополя">Тополя</option>
+                    <option value="Береза">Береза</option>
+                    <option value="Липа">Липа</option>
+                  </select>
+                  
+                    <button  
+                    class="btn submitFirstForm "
+                    id="screenshot-btn"
+                    type="button">
+                    Перейти до експерименту
+                </button>
+        </fieldset>
+      
+    </form>
+
+            </div>
+       
+
+</section>
+</menu>
+    <footer></footer>
+    <script src="index.js" type="module"></script>
+</body>
+</html>

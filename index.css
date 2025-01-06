@@ -1,0 +1,182 @@
+.list-reset {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  ul,
+  ol,
+  dl,
+  address,
+  blockquote,
+  figure {
+    margin: 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  fieldset {
+    border: none;
+  }
+  ul,
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  address {
+    font-style: normal;
+  }
+  main {
+    background-color: #2F303A;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .container {
+    max-width: 320px;
+    padding: 0 20px;
+    margin: 0 auto;
+  
+    /* @include mq(tablet) {
+      padding: 0 32px;
+      max-width: 768px;
+    }
+  
+    @include mq(desktop) {
+      padding: 0 16px;
+      max-width: 1200px;
+    } */
+  }
+ /*Стилі для першого вікна*/
+  /* .qwerty{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+} */
+.initialData {
+    /* display: flex;
+    flex-wrap:wrap; */
+    /* justify-content: center; */
+    background-color: #2F303A;
+    font-weight: 500;
+    font-size: 12px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/* .form {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+}
+.formAboutKursant {
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0;
+    padding: 0;
+} */
+
+
+.initialData__input{
+    /* border: none; */
+    background-color: yellow;
+    text-align: center;
+    min-width: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 10px
+    
+}
+
+.btn{
+    /* display: block; */
+    background-color: rgb(211, 9, 9);
+    min-width: 254px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    /* margin-left: auto;
+    margin-right: auto; */
+}
+
+.selectPlatoon, .selectTree  {
+    background-color: yellow;
+    padding: 10px;
+    min-width: 254px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 10px
+    /* margin-bottom: 20px; */
+    
+}
+
+
+
+/* label{
+  width: 20px;
+  padding: 20px;
+  margin: 10px;
+  background-color: yellow;
+
+  
+  
+} */
+
+
+
+/* Стилі для другого вікна */
+
+.video{
+ width: 250px ;
+ height: 300px;
+}
+
+.report{
+    margin-top: 10px;
+margin-bottom: 10px;
+}
+.list {
+    margin-bottom: 5px;
+}
+.result {
+    color: yellow;
+}
+.secondMass, .secondTemperature {
+    color: white;
+}
+
+
+
+
+/* Стилі для третього вікна */
+/* .firstInput{
+  color:black
+} */
+
+.fieldsetReport{
+  align-items: center;
+}
+
+/* .reportSection{
+  background-color: azure;
+} */
