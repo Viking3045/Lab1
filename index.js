@@ -89,11 +89,11 @@ function allInformation() {
     // video.src = "./Лабораторна 1.mp4";
     const source = document.createElement("source")
     source.src = "./Лабораторна 1.mp4"
-    // video.autoplay = "autoplay";
+    video.autoplay = "autoplay";
     video.classList = "video"
     // video.width = "320";
     // video.height = "300";
-    // video.muted = "muted";
+    video.muted = "muted";
     // video.controls = "controls";
     // video.textContent = " Ваш браузер не розпізнає video";
     video.append(source);
