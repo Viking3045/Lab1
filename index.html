@@ -8,29 +8,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2.0.5/FileSaver.min.js"></script>
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
-    <header class="page-header initialData ">
-        <div class="container"> <h1 class="h1">Лабораторна робота з дисципліни "Матеріалознавство та технологія матеріалів" на тему:  "Визначення показників пожежної небезпеки будівельних матеріалів"</h1></div>
-        <!-- <nav class="container main-nav">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-         
-        </nav>
-         -->
-    
-      </header>
+    <header></header>
     <main  class="menu">
         <section class="initialData">
-            <div class="container ">
-                
+            <div class="container ">  
  <form class="form">
         <fieldset class="formAboutKursant">
     
@@ -45,8 +30,9 @@
                 <input class="lastName initialData__input" type="text" name="lastName"
                     placeholder="По батькові" title="Введіть своє по батькові" minlength="3" pattern="[A-Za-z]+" required>
          
-           
-                <select class="selectPlatoon">
+           <input class="selectPlatoon initialData__input" type="text" name="selectPlatoon"
+                    placeholder="Взвод чи група" title="взвод чи група" minlength="3" pattern="[A-Za-z]+" required>
+                <!-- <select class="selectPlatoon">
                     <option value disabled selected>оберіть навчальний взвод</option>
                     <option value="21">21</option>
                     <option value="22">22 </option> 
@@ -57,11 +43,11 @@
                     <option value="студент">студент</option>
                     <option value="викладач">викладач</option>
               
-                  </select>
+                  </select> -->
           
         
                 <select class="selectTree" >
-                    <option value disabled selected>оберіть тип деревини</option> 
+                    <option value disabled selected>Оберіть тип деревини</option> 
                     <option value="Дуб">Дуб</option>
                     <option value="Ясень">Ясень </option> 
                     <option value="Сосна">Сосна</option>
@@ -88,9 +74,55 @@
        
 
 </section>
-</menu>
-    <footer class="footer initialData">
-        <!-- <div class="container"> <h1 class="h2">Національний університет цивільного захисту України</h1></div> -->
+    </main>
+    <footer>
+      <section class="calculation">
+
+        <div class="container">
+          <ul class="join__list">
+            <li class="join__item">
+              <a
+                class="join__link"
+                href="https://github.com/Viking3045/Lab1"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="join__icon" width="34" height="34">
+                  <use href="./images/sprite.svg#github"></use>
+                </svg>
+              </a>
+            </li>
+  
+            <!-- <li class="join__item">
+              <a
+                class="join__link"
+                href="https://telegram.org/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="join__icon" width="34" height="34">
+                  <use href="./images/sprite.svg#telegram"></use>
+                </svg>
+              </a>
+            </li> -->
+  
+            <li class="join__item">
+              <a
+                class="join__link"
+                href="https://www.facebook.com/profile.php?id=100070495414338"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <svg class="join__icon" width="34" height="34">
+                  <use href="./images/sprite.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+          <p class="copyriting">Copyright © 2025 NUCZ Ukraine, NNIPB, PTBOT. Created by Vitalii Stepanenko</p> 
+        </div>
+      </section>
+      
     </footer>
     <script src="index.js" type="module"></script>
 </body>
