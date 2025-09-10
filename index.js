@@ -88,7 +88,7 @@ function allInformation() {
     const li = document.createElement("li");
     ul.append(li);
     const video = document.createElement("video");
-    video.src = "/Лабораторна 1.mp4";
+    video.src = "/Lab1.mp4";
     video.autoplay = "autoplay";
     video.classList = "video"
     video.muted = "muted";
